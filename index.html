@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyberpunk</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">       
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#"><img src="img/cyberpunk.svg" alt="Киберпанк"></a>
+            <ul class="header__social social">
+                <li class="social__item"><a href="#" class="header__link"><img src="img/header/youtube.svg" alt="Ютуб"></a></li>
+                <li class="social__item"><a href="#" class="header__link"><img src="img/header/vk.svg" alt="ВК"></a></li>
+                <li class="social__item"><a href="#" class="header__link"><img src="img/header/facebook.svg" alt="Фейсбук"></a></li>
+                <li class="social__item"><a href="#" class="header__link"><img src="img/header/twitter.svg" alt="Твиттер"></a></li>
+                <li class="social__item"><a href="#" class="header__link"><img src="img/header/twitch.svg" alt="Твич"></a></li>
+                <li class="social__item"><a href="#" class="header__link"><img src="img/header/instagram.svg" alt="Инстаграм"></a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="hero">
+            <div class="hero__slideshow slideshow">
+                <div class="slideshow__item">
+                    <img src="img/hero/bg-1.jpg" alt="">
+                </div>
+                <div class="slideshow__item">
+                    <img src="img/hero/bg-2.jpg" alt="">
+                </div>
+                <div class="slideshow__item">
+                    <img src="img/hero/bg-3.jpg" alt="">
+                </div>
+            </div>
+            <div class="container hero__container">
+                <div class="hero__info">
+                    <h2 class="hero__info-title">Доступно на всех платформах</h2>
+                    <a href="#" class="hero__info-button">Узнать больше</a>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container about__container">
+                <h2 class="about__title">Найт-Сити изменит тебя навсегда!</h2>
+                <div class="about__text"><span class="highlighted">Cyberpunk 2077</span> — приключенческая ролевая игра, действие которой происходит в мегаполисе Найт-Сити, где власть, роскошь и модификации тела ценятся выше всего. Ты играешь за V, наёмника в поисках устройства, позволяющего обрести бессмертие. Ты сможешь менять киберимпланты, навыки и стиль игры своего персонажа, исследуя открытый мир, где твои поступки влияют на ход сюжета и всё, что тебя окружает.</div>
+                <div class="about__images">
+                    <div class="about__left">
+                        <div class="about__image">
+                            <img src="img/about/img-1.jpg" alt="Найт-Сити">
+                        </div>
+                        <div class="about__image">
+                            <img src="img/about/img-2.jpg" alt="Найт-Сити">
+                        </div>
+                    </div>
+                    <div class="about__image">
+                        <img src="img/about/img-3.jpg" alt="Найт-Сити">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="lottery">
+            <div class="container lottery__container">
+                <h2 class="lottery__title">Играй и выигрывай!</h2>
+                <div class="lottery__text">Играй в <span class="highlighted">Cyberpunk 2077</span> и получи возможность выиграть консоль <span class="highlighted">Xbox Series X</span> или <span class="highlighted">Sony PlayStation 5!</span> Заполни форму ниже и приложи скриншот о покупке игры. Итоги розыгрыша будут подведены 1 февраля. Удачи! ;)</div>
+                <div class="lottery__content">
+                    <form action="#" class="lottery__form form">
+                        <input type="text" name="name" class="form__input" autocomplete="off" placeholder="Как тебя зовут?">
+                        <input type="email" name="email" class="form__input" autocomplete="off" placeholder="Твой е-mail">
+                        <label class="form__file file">
+                            <input type="file" class="file__input">
+                            <span class="file__text">Прикрепить скриншот</span>
+                            <span class="file__formats">.png / .jpg / .pdf</span>
+                        </label>
+                        <button class="form__button">Отправить</button>
+                        <label class="form__checkbox checkbox">
+                            <input type="checkbox" class="checkbox__input">
+                            <span class="checkbox__text">Согласен на обработку персональных данных</span>
+                        </label>
+                    </form>
+                    <picture>
+                        <source srcset="img/lottery/consoles-mobile.png" media="(max-width: 576px)">
+                        <source srcset="img/lottery/consoles-tablet.png" media="(max-width: 1024px)">
+                        <img src="img/lottery/consoles.png" alt="" class="lottery__image">
+                    </picture>
+                </div>
+            </div>
+        </section>
+        <section class="hp">
+            <div class="container hp__container">
+                <div class="hp__left">
+                    <img src="img/hp/monitor.png" alt="Монитор hp" class="hp__image">
+                    <div class="hp__logos">
+                        <a href="#" class="hp__logo"><img src="img/hp/hp-logo.svg" alt="Логотип hp"></a>
+                        <span class="hp__logo-separator"></span>
+                        <a href="#" class="hp__logo"><img src="img/cyberpunk.svg" alt="Логотип Киберпанка"></a>
+                    </div>
+                </div>
+                <div class="hp__right">
+                    <h2 class="hp__title">Полное погружение вместе с HP</h2>
+                    <div class="hp__text">Погрузись в современные экшен-игры с реалистичным изображением с помощью монитора с диагональю 23,8 дюйма, созданном для отображения максимально насыщенных цветов. Успевай реагировать на любые события с временем отклика 1 мс и частотой в 144 Гц!</div>
+                    <ul class="hp__list">
+                        <li class="hp__item">Яркие насыщенные цвета</li>
+                        <li class="hp__item">Кристальная четкость изображения</li>
+                        <li class="hp__item">Быстрые движения и плавный геймплей</li>
+                    </ul>
+                    <a href="#" class="hp__button">Подробнее</a>
+                </div>
+            </div>
+        </section>
+        <section class="buy">
+            <picture>
+                <source srcset="img/buy/cases-mobile.jpg" media="(max-width: 530px)">
+                <source srcset="img/buy/cases-tablet.jpg" media="(max-width: 1024px)">
+                <img src="img/buy/cases.jpg" alt="Футляры игры Киберпанк" class="buy__image">
+              </picture>
+            <div class="container buy__container">
+                <div class="buy__content">
+                    <h2 class="buy__title">Купить игру Cyberpunk 2077</h2>
+                    <h3 class="buy__subtitle">В комплект входит:</h3>
+                    <ul class="buy__list">
+                        <li class="buy__item">Футляр с игровыми дисками</li>
+                        <li class="buy__item">Футляр с кодом для загрузки игры и дисками (pc)</li>
+                        <li class="buy__item">Справочник с информацией об игровом мире</li>
+                    </ul>
+                    <h3 class="buy__subtitle">Выберите платформу:</h3>
+                    <ul class="buy__platforms platforms">
+                        <li class="platforms__item"><a href="#" class="platforms__link"><img src="img/buy/pc.svg" alt="ПК"></a></li>
+                        <li class="platforms__item"><a href="#" class="platforms__link"><img src="img/buy/xbox.svg" alt="Иксбокс"></a></li>
+                        <li class="platforms__item"><a href="#" class="platforms__link"><img src="img/buy/stadia.svg" alt="Стадия"></a></li>
+                        <li class="platforms__item"><a href="#" class="platforms__link"><img src="img/buy/ps4.svg" alt="Плейстейшн 4"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__top">
+            <div class="container footer__container">
+                <div class="footer__left">
+                    <a href="#" class="footer__link"><img src="img/cyberpunk.svg" alt="Логотип Киберпанка"></a>
+                    <a href="#" class="footer__link"><img src="img/footer/cd_projekt_red.svg" alt="Логотип CD Projekt Red"></a>
+                </div>
+                <div class="footer__right">
+                    <a href="#" class="footer__link">Лицензия</a>
+                    <a href="#" class="footer__link">Политика конфиденциальности</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container footer__container">
+                <div class="footer__copyright">CD PROJEKT®, Cyberpunk®, Cyberpunk 2077®</div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
